@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Player Stats</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { text-align: center; color: #333; }
+        .player { padding: 10px; border-bottom: 1px solid #ddd; }
+        .player:last-child { border-bottom: none; }
+        .name { font-weight: bold; font-size: 18px; }
+        .team { color: #777; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>NBA Player Stats</h1>
+        {% for player in players %}
+          <div class="player">
+              <div class="name">{{ player.first_name }} {{ player.last_name }}</div>
+              {% if player.team %}
+                  <div class="team">Team: {{ player.team.full_name }}</div>
+              {% else %}
+                  <div class="team">Team: N/A</div>
+              {% endif %}
+              <div>Position: {{ player.position|default:"N/A" }}</div>
+              <div>Height: {{ player.height_feet|default:"N/A" }}' {{ player.height_inches|default:"" }}"</div>
+              <div>Weight: {{ player.weight_pounds|default:"N/A" }} lbs</div>
+          </div>
+        {% endfor %}
+
+    </div>
+</body>
+</html>
