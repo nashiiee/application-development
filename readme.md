@@ -9,3 +9,11 @@ planning to build an e-commerce platform.
 
 # Status
 The project is still in progress. User registration and login are functional, and basic CRUD operations for products and orders are implemented.
+
+#
+
+# Group Members
+- Nash Rovic P. Claracay
+  - Created the backend functionality
+- Gab Magbanua
+  - Frontend
