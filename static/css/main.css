@@ -1,0 +1,34 @@
+.navbar-css {
+  padding: 10px 0 10px 20px;
+}
+
+.dashboard-row, .status-row, .products-row, .customer-container, .delete-row, .order_form_row{
+  margin: 20px;
+}
+
+.project-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 0 20px;
+}
+
+body {
+  background-color: #ebeff5;
+  }
+
+#total-orders {
+  background-color: #4cb4c7;
+}
+
+#orders-delivered {
+  background-color: #7abecc;
+}
+
+#orders-pending{ 
+  background-color: #7cd1c0;
+}
+
+.btn {
+  margin: 5px 5px;
+}
