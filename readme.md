@@ -15,5 +15,5 @@ The project is still in progress. User registration and login are functional, an
 # Group Members
 - Nash Rovic P. Claracay
   - Created the backend functionality
-- Gab Magbanua
+- Gabriel Magbanua
   - Frontend
