@@ -1,6 +1,6 @@
 # E-Commerce Platform
 
-This is an e-commerce platform built with Django. 
+planning to build an e-commerce platform. 
 
 ## Current Features
 - **User Registration**: Users can sign up and create an account.
